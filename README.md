@@ -21,7 +21,7 @@ This project is a Laravel application that fetches movie and actor data from [Th
 
 ## Requirements
 
-- PHP `^7.3|^8.0` (use PHP 8.1 or lower for the current lockfile)
+- PHP 7.3–8.1 (the project declares `^7.3|^8.0`, but the current lockfile is not compatible with PHP 8.2+)
 - Composer
 - Node.js + npm
 - TMDB API read access token
