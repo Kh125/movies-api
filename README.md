@@ -91,6 +91,6 @@ php artisan test
 
 The repository includes a `Procfile` for Heroku-style deployment:
 
-```procfile
+```text
 web: vendor/bin/heroku-php-apache2 public/
 ```
